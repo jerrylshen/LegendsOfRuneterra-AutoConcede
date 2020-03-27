@@ -3,7 +3,7 @@
 
 ; Start the LoRAutoConcede.ahk file
 ; CTRL + k to start 
-^k::
+^j::
 screenWidth := A_ScreenWidth
 screenHeight := A_ScreenHeight
 
