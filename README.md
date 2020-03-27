@@ -25,11 +25,11 @@ There's no difference between LoRAutoConcede_AI.ahk and LoRAutoConcede_PvP.ahk a
 I've also added delays to allow for the loading times. Loading times would vary based on specs and Internet speeds. If long loading/match finding times, increase delay. 
 
 Lines 49-53 in both files is where one would adjust the delay time to allow for finding/loading the match and the in-match time before conceding:  
-> Sleep, 36000
-> Send {Space}
-> Sleep, 20000
-> Send {Space}
-> Sleep, 400
+> Sleep, 36000  
+> Send {Space}  
+> Sleep, 20000  
+> Send {Space}  
+> Sleep, 400  
 
 For finding the coordinates of where to click, instead of hard coding exact coordinates, I'm calculating based on the location's ratio to the display. This should make the script "universal," assuming that LoR scales the same.   
 
