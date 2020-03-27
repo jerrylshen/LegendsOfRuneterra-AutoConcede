@@ -24,7 +24,7 @@ To start: CRL + j
 To end at any time: ESC  
 
 ## Technical
-There's no difference between LoRAutoConcede_AI.ahk and LoRAutoConcede_PvP.ahk aside from the mouse clicking on the appropriate "VS Player" and "VS AI" buttons.
+There's no difference between LoRAutoConcede_AI.ahk and LoRAutoConcede_PvP.ahk aside from the mouse clicking on the appropriate "VS Player" and "VS AI" buttons and the set delays.
 
 I've also added delays to allow for the loading times. Loading times would vary based on specs and Internet speeds. If long loading/match finding times, increase delay. 
 
