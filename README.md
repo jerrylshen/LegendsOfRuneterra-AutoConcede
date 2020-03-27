@@ -6,7 +6,7 @@ Download AHK: https://www.autohotkey.com/
 Save LoRAutoConcede.ahk and RandomBezier.ahk in save folder/directory
 [optional] An editor, if you want to edit the code
 
-##
+### tesat
 From Riot (https://playruneterra.com/en-us/news/open-beta-economy-updates/)
 Vs AI Losses
 Base XP reward is 50 XP.
