@@ -43,7 +43,7 @@ Loop, 10
     PlayMatch_Y := floor(0.9050925*A_ScreenHeight)
     RandomBezier(CX, CY, PlayMatch_X, PlayMatch_Y, "T750 OT100 OB-100 OL0 OR0 P3-1")
     Sleep 50
-    ; Click
+    Click
 
     ; to allow for opponent's turn
     Sleep, 21000
