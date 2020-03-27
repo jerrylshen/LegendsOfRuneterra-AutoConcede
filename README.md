@@ -7,10 +7,11 @@ This should work on all display resolutions, as long as LoR is fullscreened.
 The order of sequence it clicks on:  
 Play -> VS AI (or PvP) -> picks the first deck -> \*Play -> Passes two turns -> Setting -> Surrender -> Ok  
 \*This to the end-of-the-sequence loops 10 times, [why only 10 times?](https://github.com/jerrylshen/LegendsOfRuneterra-AutoConcede/blob/master/README.md#why-auto-concede-against-ai-10-times)  
-Total AI XP gain: 350  
+Daily AI XP gain: 350  
+Daily PvP XP gain: ??
   
-Demo using the PvP script: https://youtu.be/oUP3yq-07ss 
-Stopped recording after 3 matches,
+Demo using the PvP script: https://youtu.be/oUP3yq-07ss  
+Stopped recording after 3 matches, muted because the sound recording was partially messed up.
 
 ## Prerequisites
 Download AHK: https://www.autohotkey.com/  
