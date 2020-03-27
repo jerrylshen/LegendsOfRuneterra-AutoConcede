@@ -46,9 +46,9 @@ Loop, 10
     Click
 
     ; to allow for opponent's turn and loading
-    Sleep, 36000
+    Sleep, 26000
     Send {Space}
-    Sleep, 20000
+    Sleep, 18000
     Send {Space}
     Sleep, 400
 
