@@ -25,7 +25,7 @@ Click
 MouseGetPos, CX, CY
 AI_X := floor(0.110677*A_ScreenWidth)
 AI_Y := floor(0.3032407*A_ScreenHeight)
-RandomBezier(CX, CY, AI_X, AI_Y, "T100 OT100 OB-100 OL0 OR0 P2-1")
+RandomBezier(CX, CY, AI_X, AI_Y, "T400 OT100 OB-100 OL0 OR0 P2-1")
 Sleep 50
 Click 
 
