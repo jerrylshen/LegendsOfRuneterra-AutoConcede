@@ -22,13 +22,20 @@ To end at any time: ESC
 ## Technical
 There's no difference between LoRAutoConcede_AI.ahk and LoRAutoConcede_PvP.ahk aside from the mouse clicking on the appropriate "VS Player" and "VS AI" buttons.
 
-For finding the coordinates of where to click, instead of hard coding exact coordinates, I'm calculating based on the location's ratio to the display. This should make the script "universal," assuming that LoR scales the same.  
+I've also added delays to allow for the loading times. Loading times would vary based on specs and Internet speeds. If long loading/match finding times, increase delay. 
+
+Lines 49-53 in both files is where one would adjust the delay time to allow for finding/loading the match and the in-match time before conceding:  
+> Sleep, 36000
+> Send {Space}
+> Sleep, 20000
+> Send {Space}
+> Sleep, 400
+
+For finding the coordinates of where to click, instead of hard coding exact coordinates, I'm calculating based on the location's ratio to the display. This should make the script "universal," assuming that LoR scales the same.   
 
 It's using [MasterFocus's RandomBezier.ahk](https://github.com/MasterFocus/AutoHotkey/tree/master/Functions/RandomBezier) to randomize/simulate a more natural mouse movement from Point A to Point B with different duration of mouse movement for each action.  
 
-I've also added delays to allow for the loading times. Loading times would vary based on specs.  
-This script was tested on a 2016 Dell XPS 15 9550, LoR client 0.9.2.
-
+This script was tested on a 2016 Dell XPS 15 9550 at both 4k and 1080p resolutions, LoR client 0.9.2.  
 Please refer to the comments in the code if you want to change anything (delays, adjusting the mouse path, etc).
 
 ## Why auto concede against AI 10 times?
