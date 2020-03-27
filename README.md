@@ -9,8 +9,8 @@ Play -> VS AI (or PvP) -> picks the first deck -> \*Play -> Passes two turns -> 
 \*This to the end-of-the-sequence loops 10 times, [why only 10 times?](https://github.com/jerrylshen/LegendsOfRuneterra-AutoConcede/blob/master/README.md#why-auto-concede-against-ai-10-times)  
 Total AI XP gain: 350  
   
-Demo using the PvP script: https://youtu.be/qJ0v1OGb8mM  
-Stopped recording after 3 matches
+Demo using the PvP script: https://youtu.be/oUP3yq-07ss 
+Stopped recording after 3 matches,
 
 ## Prerequisites
 Download AHK: https://www.autohotkey.com/  
