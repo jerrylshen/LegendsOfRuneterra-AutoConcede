@@ -46,5 +46,5 @@ Vs AI Losses
 - Losses 5-10 reward 25 XP.
 - Losses 11+ reward 0 XP.
 
-https://playruneterra.com/en-us/news/adding-more-agency-to-progression/
+https://playruneterra.com/en-us/news/adding-more-agency-to-progression/  
 PVP wins in Normal / Ranked and Expeditions net you at least 200 and 100 base XP (respectively), every time. Play as much as you want!
