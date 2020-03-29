@@ -2,7 +2,7 @@
 #Include RandomBezier.ahk 
 
 ; Start the LoRAutoConcede.ahk file
-; CTRL + k to start 
+; CTRL + j to start 
 ^j::
 screenWidth := A_ScreenWidth
 screenHeight := A_ScreenHeight
