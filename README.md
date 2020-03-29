@@ -6,12 +6,9 @@ If you like this, please give my repo a star:)
 This should work on all display resolutions, as long as LoR is fullscreened.  
 The order of sequence it clicks on:  
 Play -> VS AI (or PvP) -> picks the first deck -> \*Play -> Passes two turns -> Setting -> Surrender -> Ok  
-\*This to the end-of-the-sequence loops 10 times, [why only 10 times?](https://github.com/jerrylshen/LegendsOfRuneterra-AutoConcede/blob/master/README.md#why-auto-concede-against-ai-10-times)  
+\*This to the end-of-the-sequence loops 10 times; [Why only 10 times?](https://github.com/jerrylshen/LegendsOfRuneterra-AutoConcede/blob/master/README.md#why-auto-concede-against-ai-10-times)  
 Daily AI XP gain: 350  
 Daily PvP XP gain: ??
-  
-Demo using the PvP script: https://youtu.be/oUP3yq-07ss  
-Stopped recording after 3 matches, muted because the sound recording was partially messed up.
 
 ## Prerequisites
 Download AHK: https://www.autohotkey.com/  
@@ -48,3 +45,6 @@ Vs AI Losses
 - Base XP reward is 50 XP.
 - Losses 5-10 reward 25 XP.
 - Losses 11+ reward 0 XP.
+
+https://playruneterra.com/en-us/news/adding-more-agency-to-progression/
+PVP wins in Normal / Ranked and Expeditions net you at least 200 and 100 base XP (respectively), every time. Play as much as you want!
