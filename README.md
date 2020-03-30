@@ -1,4 +1,4 @@
-# USE AT YOUR RISK
+# USE AT YOUR OWN RISK
 # Legends Of Runeterra Auto Concede Scripts
 If you like this, please give my repo a star:)
 
