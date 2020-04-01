@@ -19,21 +19,21 @@ Play_Y := floor(0.37037*A_ScreenHeight)
 ; https://github.com/MasterFocus/AutoHotkey/tree/master/Functions/RandomBezier 
 RandomBezier(CX, CY, Play_X, Play_Y, "T1200 OT100 OB-100 OL60 OR80 P2-1")
 ; Sleep in milliseconds
-Sleep, 75
+Sleep, 205
 Click   
 
 MouseGetPos, CX, CY
 PvP_X := floor(0.110677*A_ScreenWidth)
 PvP_Y := floor(0.26*A_ScreenHeight)
 RandomBezier(CX, CY, PvP_X, PvP_Y, "T400 OT100 OB-100 OL0 OR0 P2-1")
-Sleep, 100
+Sleep, 200
 Click 
 
 MouseGetPos, CX, CY
 Deck_X := floor(0.3190104*A_ScreenWidth)
 Deck_Y := floor(0.3032407*A_ScreenHeight)
 RandomBezier(CX, CY, Deck_X, Deck_Y, "T700 OT100 OB-100 OL0 OR0 P3-1")
-Sleep, 100
+Sleep, 200
 Click
 
 Loop, 10
@@ -42,7 +42,7 @@ Loop, 10
     PlayMatch_X := floor(0.8*A_ScreenWidth)
     PlayMatch_Y := floor(0.9050925*A_ScreenHeight)
     RandomBezier(CX, CY, PlayMatch_X, PlayMatch_Y, "T750 OT100 OB-100 OL0 OR0 P3-1")
-    Sleep, 100
+    Sleep, 200
     Click
 
     ; to allow for opponent's turn and loading
@@ -80,7 +80,7 @@ Loop, 10
     Continue_X := floor(0.6*A_ScreenWidth)
     Continue_Y := floor(0.90509*A_ScreenHeight)
     RandomBezier(CX, CY, Continue_X, Continue_Y, "T400 OT100 OB-100 OL0 OR0 P2-1")
-    Sleep, 185
+    Sleep, 205
     Click
 
     ; to allow for return back to Play menu loading time

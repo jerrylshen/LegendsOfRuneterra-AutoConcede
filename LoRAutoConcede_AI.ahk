@@ -13,27 +13,27 @@ screenHeight := A_ScreenHeight
 ; for every action, I get the current mouse position
 MouseGetPos, CX, CY
 ; the X, Y coordinates for such button
-Play_X := floor(0.02604*A_ScreenWidth)
+Play_X := floor(0.02604*A_ScreenWidth) 
 Play_Y := floor(0.37037*A_ScreenHeight)
 ; Calls RandomBezier, which controls the mouse movements, duration of movement, etc
 ; https://github.com/MasterFocus/AutoHotkey/tree/master/Functions/RandomBezier 
 RandomBezier(CX, CY, Play_X, Play_Y, "T1200 OT100 OB-100 OL60 OR80 P2-1")
 ; Sleep in milliseconds
-Sleep, 75
+Sleep, 200
 Click   
 
 MouseGetPos, CX, CY
 AI_X := floor(0.110677*A_ScreenWidth)
 AI_Y := floor(0.3032407*A_ScreenHeight)
 RandomBezier(CX, CY, AI_X, AI_Y, "T400 OT100 OB-100 OL0 OR0 P2-1")
-Sleep 50
+Sleep 200
 Click 
 
 MouseGetPos, CX, CY
 Deck_X := floor(0.3190104*A_ScreenWidth)
 Deck_Y := floor(0.3032407*A_ScreenHeight)
 RandomBezier(CX, CY, Deck_X, Deck_Y, "T700 OT100 OB-100 OL0 OR0 P3-1")
-Sleep, 100
+Sleep, 200
 Click
 
 Loop, 10
@@ -42,13 +42,13 @@ Loop, 10
     PlayMatch_X := floor(0.8*A_ScreenWidth)
     PlayMatch_Y := floor(0.9050925*A_ScreenHeight)
     RandomBezier(CX, CY, PlayMatch_X, PlayMatch_Y, "T750 OT100 OB-100 OL0 OR0 P3-1")
-    Sleep, 100
+    Sleep, 200
     Click
 
     ; to allow for opponent's turn and loading
-    Sleep, 26000
+    Sleep, 36000
     Send {Space}
-    Sleep, 18000
+    Sleep, 20000
     Send {Space}
     Sleep, 400
 
