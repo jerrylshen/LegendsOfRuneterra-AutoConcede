@@ -1,6 +1,7 @@
 # USE AT YOUR OWN RISK
 # Legends Of Runeterra Auto Concede Scripts
-If you like this, please give my repo a star:) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/jerrylshen)
+If you like this, please give my repo a star:)  
+Buy me a coffee:) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/jerrylshen)
 
 ## What It Does
 This should work on all display resolutions, as long as LoR is fullscreened.  
