@@ -38,7 +38,7 @@ For finding the coordinates of where to click, instead of hard coding exact coor
 
 It's using [MasterFocus's RandomBezier.ahk](https://github.com/MasterFocus/AutoHotkey/tree/master/Functions/RandomBezier) to randomize/simulate a more natural mouse movement from Point A to Point B with different duration of mouse movement for each action.  
 
-This script was tested on a 2016 Dell XPS 15 9550 at both 4k and 1080p resolutions, LoR client 0.9.4.  
+This script was tested on a 2016 Dell XPS 15 9550 at both 4k and 1080p resolutions, LoR client 1.0.  
 Please refer to the comments in the code if you want to change anything (delays, adjusting the mouse path, etc).
 
 ## Why auto concede against AI 10 times?
