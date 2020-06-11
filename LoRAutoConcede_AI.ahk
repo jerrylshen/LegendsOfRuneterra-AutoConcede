@@ -24,7 +24,7 @@ RandomBezier(CX, CY, Play_X, Play_Y, "T1200 OT100 OB-100 OL60 OR80 P2-1")
 Sleep, 405
 Click   
 
-; ------ Press the "VS PLAYER" button ------
+; ------ Press the "VS AI" button ------
 MouseGetPos, CX, CY
 AI_X := floor(0.110677*A_ScreenWidth)
 AI_Y := floor(0.3032407*A_ScreenHeight)
@@ -47,7 +47,7 @@ Loop, 10
     PlayMatch_X := floor(0.8*A_ScreenWidth)
     PlayMatch_Y := floor(0.9050925*A_ScreenHeight)
     RandomBezier(CX, CY, PlayMatch_X, PlayMatch_Y, "T750 OT100 OB-100 OL0 OR0 P3-1")
-    Sleep, 200
+    Sleep, 400
     Click
 
     ; to allow for opponent's turn and loading
