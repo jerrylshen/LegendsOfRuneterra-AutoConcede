@@ -3,6 +3,8 @@
 If you like this, please give my repo a star    
 Buy me a coffee:) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/jerrylshen)
 
+[LoRAutoConcede_AI_AND_PVP.ahk](https://github.com/jerrylshen/LegendsOfRuneterra-AutoConcede/blob/master/LoRAutoConcede_AI_AND_PVP.ahk) has both the AI and PvP integrated in one file. It will autoconcede AI 10 times, then autoconcede PvP 10 times.
+
 ## What It Does
 This should work on all display resolutions, as long as LoR is fullscreened.  
 The order of sequence it clicks on:  
@@ -38,7 +40,7 @@ For finding the coordinates of where to click, instead of hard coding exact coor
 
 It's using [MasterFocus's RandomBezier.ahk](https://github.com/MasterFocus/AutoHotkey/tree/master/Functions/RandomBezier) to randomize/simulate a more natural mouse movement from Point A to Point B with different duration of mouse movement for each action.  
 
-This script was tested on a 2016 Dell XPS 15 9550 at both 4k and 1080p resolutions, LoR client 1.0.  
+This script was tested on a 2016 Dell XPS 15 9550 at both 4k and 1080p resolutions, LoR client 1.3.  
 Please refer to the comments in the code if you want to change anything (delays, adjusting the mouse path, etc).
 
 ## Why auto concede against AI 10 times?
