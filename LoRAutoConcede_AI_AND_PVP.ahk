@@ -11,7 +11,7 @@ screenHeight := A_ScreenHeight
 ; The major differences betwee the code blocks is the parameters for RandomBezier and Sleep times
 
 playLoop() {
-    Loop, 2
+    Loop, 10
     {
         ; ------ Press the "PLAY" button ------
         MouseGetPos, CX, CY
